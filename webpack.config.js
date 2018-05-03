@@ -46,7 +46,7 @@ module.exports = {
 		filename: filename + '.js'
 	},
 	bail: true,
-	externals: Object.keys(pkg.dependencies),
+	externals: ['angular'],
 	resolve: {
 		extensions: ['.ts', '.html', '.less']
 	},

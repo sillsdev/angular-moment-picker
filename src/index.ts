@@ -1,4 +1,6 @@
 import * as angular from 'angular';
+import * as moment from 'moment';
+window['moment'] = moment;
 import Provider from './provider';
 import Directive from './directive';
 
